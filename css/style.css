@@ -1267,6 +1267,9 @@ span {
 .reviews__img {
     width: 60px;
     height: 60px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
 }
 .reviews__txt {
     margin-bottom: 10px;
