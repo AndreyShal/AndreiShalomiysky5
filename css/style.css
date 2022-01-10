@@ -545,7 +545,7 @@ span {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    background-image: url("../img/main__department/star.png");
+    background-image: url("../img/main__department/star.svg");
 }
 .grade {
     font-size: 16px;
@@ -578,18 +578,18 @@ span {
     width: 50px;
 }
 .time-img {
-    background-image: url("../img/main__department/time.png");
+    background-image: url("../img/main__department/time.svg");
     width: 26.4px;
     height: 26.4px;
 }
 .distance-img {
-    background-image: url("../img/main__department/distance.png");
+    background-image: url("../img/main__department/distance.svg");
     width: 24px;
     height: 16.8px;
     transform: rotate(135deg);
 }
 .complexity-img {
-    background-image: url("../img/main__department/complexity.png");
+    background-image: url("../img/main__department/complexity.svg");
     width: 20px;
     height: 21.6px;
 }
