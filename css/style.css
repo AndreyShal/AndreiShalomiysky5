@@ -1509,6 +1509,7 @@ span {
 }
 .howItWorks {
     position: relative;
+    margin: 0 auto;
 }
 .howItWorks h3 {
     color: #363c45;
@@ -1677,6 +1678,19 @@ span {
 }
 .appStore {
     background-image: url("../img/howItWorks/startAdventure/2.jpg");
+}
+@media screen and (min-width: 500px) {
+    .howItWorks {
+        width: 480px;
+    }
+    .howItWorks__background-img {
+        background-image: url("../img/howItWorks/howItWorks__background-img3x.png");
+    }
+}
+@media screen and (min-width: 768px) {
+    .howItWorks {
+        width: 700px;
+    }
 }
 @media screen and (min-width: 1378px) {
     .howItWorks {
@@ -1873,6 +1887,19 @@ span {
 }
 .footer-desctop {
     display: none;
+}
+@media screen and (min-width: 500px) {
+    .footer__txt {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 768px) {
+    .footer__txt {
+        width: 700px;
+        margin: 0 auto;
+    }
 }
 @media screen and (min-width: 1378px) {
     .footer {
