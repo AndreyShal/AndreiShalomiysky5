@@ -827,6 +827,32 @@ span {
     margin-bottom: 50px;
     cursor: pointer;
 }
+@media screen and (min-width: 768px) {
+    .img1 {
+        background-image: url("../img/gallery/2x/img1.jpg");
+    }
+    .img2 {
+        background-image: url("../img/gallery/2x/img2.jpg");
+    }
+    .img3 {
+        background-image: url("../img/gallery/2x/img3.jpg");
+    }
+    .img4 {
+        background-image: url("../img/gallery/2x/img4.jpg");
+    }
+    .img5 {
+        background-image: url("../img/gallery/2x/img5.jpg");
+    }
+    .img6 {
+        background-image: url("../img/gallery/2x/img6.jpg");
+    }
+    .img7 {
+        background-image: url("../img/gallery/2x/img7.jpg");
+    }
+    .img8 {
+        background-image: url("../img/gallery/2x/img8.jpg");
+    }
+}
 @media screen and (min-width: 1378px) {
     .gallery {
         margin-bottom: 116px;
