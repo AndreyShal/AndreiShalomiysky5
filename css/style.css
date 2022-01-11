@@ -410,7 +410,7 @@ span {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
-        background-image: url("../img/header/logo-colorDSC.png");
+        background-image: url("../img/header/logo-colorDSC1.svg");
     }
     .patternDSC {
         position: absolute;
@@ -1857,7 +1857,7 @@ span {
     cursor: pointer;
 }
 .subscribe__button-img {
-    background-image: url("../img/subscribe1.png");
+    background-image: url("../img/subscribe.svg");
     width: 19px;
     height: 22px;
     background-repeat: no-repeat;
