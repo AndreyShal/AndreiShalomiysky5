@@ -1631,6 +1631,7 @@ span {
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 40px;
+    margin: 0 auto;
 }
 .howItWorks__block {
     width: 165px;
@@ -1788,6 +1789,7 @@ span {
 }
 @media screen and (min-width: 1378px) {
     .howItWorks {
+        width: 100%;
         margin-bottom: 100px;
     }
     .howItWorks__background-img {
@@ -1831,6 +1833,21 @@ span {
     .walkTheStoryline__block {
         width: 212px;
         height: 410px;
+    }
+    .walkTheStoryline__block-img1 {
+        background-image: url("../img/howItWorks/walkTheStoryline__container/4x/1.png");
+    }
+    .walkTheStoryline__block-img2 {
+        background-image: url("../img/howItWorks/walkTheStoryline__container/4x/2.png");
+    }
+    .walkTheStoryline__block-img3 {
+        background-image: url("../img/howItWorks/walkTheStoryline__container/4x/3.png");
+    }
+    .walkTheStoryline__block-img4 {
+        background-image: url("../img/howItWorks/walkTheStoryline__container/4x/4.png");
+    }
+    .walkTheStoryline__block-img5 {
+        background-image: url("../img/howItWorks/walkTheStoryline__container/4x/5.png");
     }
     .startAdventure__title-txt {
         display: none;
