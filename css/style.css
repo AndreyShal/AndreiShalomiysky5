@@ -296,6 +296,9 @@ span {
 .menu-mobail ul li {
     margin-bottom: 36px;
 }
+.menu-mobail ul li:hover {
+    cursor: pointer;
+}
 .menu-mobail ul li a {
     font-family: Merriweather;
     font-style: normal;
@@ -459,6 +462,9 @@ span {
     }
     .menuDSC li {
         margin-bottom: 40px;
+    }
+    .menuDSC li {
+        cursor: pointer;
     }
     .button-header__desctop {
         position: absolute;
