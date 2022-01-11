@@ -404,6 +404,7 @@ span {
         display: block;
         top: 0px;
         left: 190px;
+        z-index: 50;
     }
     .wrapper > .header__desctop-wrapper > .header__desctop {
         width: 194px;
@@ -654,7 +655,6 @@ span {
         margin-bottom: 102px;
         padding-left: 262px;
         padding-top: 32px;
-        z-index: -1;
     }
     .title__site {
         max-width: 350px;
@@ -1425,11 +1425,11 @@ span {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 256px;
+    /* height: 256px; */
 }
 .aboutTheAuthor__img {
     position: relative;
-    width: 243px;
+    min-width: 203px;
     height: 256px;
     background: linear-gradient(270deg, #fafafa 28.65%, rgba(250, 250, 250, 0) 100%),
         radial-gradient(50% 50% at 50% 50%, rgba(250, 250, 250, 0) 74.65%, #fafafa 100%), url(image.png);
@@ -1438,10 +1438,10 @@ span {
     box-sizing: border-box;
     border-radius: 6px;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 }
 .aboutTheAuthor__txt-mobail1 {
-    width: 250px;
+    width: 100%;
 }
 .aboutTheAuthor__txt-mobail2 {
     width: 100%;
@@ -1480,21 +1480,19 @@ span {
     .aboutTheAuthor {
         width: 480px;
         margin: 0 auto;
-        height: 256px;
         display: block;
+        margin-bottom: 50px;
     }
 }
 @media screen and (min-width: 768px) {
     .aboutTheAuthor {
         width: 700px;
         margin: 0 auto;
+        margin-bottom: 50px;
     }
     .aboutTheAuthor__img {
         width: 350px;
         background-position: 50% 50%;
-    }
-    .aboutTheAuthor__txt {
-        /* width: 350px; */
     }
 }
 @media screen and (min-width: 1378px) {
@@ -1503,6 +1501,9 @@ span {
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
+    }
+    .aboutTheAuthor__container {
+        /* width: 100%; */
     }
     .aboutTheAuthor__title {
         margin: 0;
@@ -1514,13 +1515,11 @@ span {
         line-height: 71px;
     }
     .aboutTheAuthor__img {
-        position: relative;
-        top: 0px;
-        left: 0px;
         width: 569px;
         height: 600px;
         background-image: url("../img/aboutTheAuthor/4x/aboutTheAuthor.jpg");
-        background-size: cover;
+        background-size: contain;
+        margin-right: 50px;
     }
     .aboutTheAuthor__txt {
         margin: 0;
