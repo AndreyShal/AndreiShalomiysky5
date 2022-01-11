@@ -395,11 +395,18 @@ span {
     .wrapper > .header__desctop-wrapper > .header__desctop {
         width: 194px;
         height: 800px;
+        position: fixed;
+        transform: translateX(-100%);
+    }
+    .header__desctop-fon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
         background: rgba(250, 250, 250, 0.4);
         box-shadow: inset -1px 0px 4px rgba(84, 104, 135, 0.1);
         backdrop-filter: blur(60px);
-        position: fixed;
-        transform: translateX(-100%);
     }
     .logotipDSC {
         position: absolute;
@@ -606,6 +613,7 @@ span {
         display: none;
     }
     .main__departmentDSC {
+        position: relative;
         width: 1440px;
         height: 800px;
         display: block;
@@ -616,6 +624,7 @@ span {
         margin-bottom: 102px;
         padding-left: 262px;
         padding-top: 32px;
+        z-index: -1;
     }
     .title__site h1 {
         font-size: 96px;
@@ -631,6 +640,41 @@ span {
         padding: 0;
         text-align: left;
         font-weight: normal;
+    }
+    .langageDSC {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 56px;
+        top: 20px;
+        right: 33px;
+    }
+    .langageDSC__item1 h5 {
+        color: #fafafa;
+    }
+    .social-networksDSC {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        width: 86px;
+        top: 749px;
+        right: 33px;
+    }
+    .social-networksDSC-item {
+        width: 18px;
+        height: 18px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+    .social-networksDSC-inst {
+        background-image: url("../img/header/social-networksDSC/instagram.png");
+    }
+    .social-networksDSC-twit {
+        background-image: url("../img/header/social-networksDSC/twiter.png");
+    }
+    .social-networksDSC-faceb {
+        background-image: url("../img/header/social-networksDSC/facebook.png");
     }
 }
 .whatWillHappen {
