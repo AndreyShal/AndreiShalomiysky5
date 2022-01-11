@@ -2033,6 +2033,28 @@ span {
         justify-content: space-between;
     }
 }
+.developers {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.developers h6 {
+    font-size: 8px;
+    color: #3b4472;
+}
+@media screen and (min-width: 768px) {
+    .developers {
+        margin-top: 60px;
+    }
+    .developers h6 {
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 1378px) {
+    .developers {
+        margin-top: 0;
+    }
+}
 
 /*......................................ШРИФТЫ.........................*/
 @font-face {
