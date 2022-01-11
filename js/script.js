@@ -4,12 +4,20 @@ document.getElementById("sweeties2").addEventListener('click', () => toggleMe3(d
 function toggleMe3(x) {
     if (!x) return true;
     if (x.style.display === "none" || x.style.display === "") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
+        document.querySelector('.menu-mobail').classList.toggle('menu-mobail__hidden');
     }
     return true;
 }
+// ....................................................скрыть меню после перехода по якорной ссылк Начало.......................
+let scroll__botton = document.querySelectorAll(".scroll__botton");
+for (let i = 0; i < scroll__botton.length; i++) {
+    scroll__botton[i].addEventListener("click", toggleMenu);
+    function toggleMenu() {
+        document.querySelector('.menu-mobail').classList.toggle('menu-mobail__hidden');
+    };
+}
+// ....................................................скрыть меню после перехода по якорной ссылк Конец.......................
+
 /*.............................СКРЫТЬ-РАЗВЕРНУТЬ ТЕСКТ.................................*/
 const whatWillHappenButtonNode = document.querySelector("#js-whatWillHappen-btn");
 let isWhatWillHappenButtonPressed = false;

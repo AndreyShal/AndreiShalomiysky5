@@ -270,6 +270,8 @@ span {
     top: 0;
     right: 0px;
     z-index: 99;
+}
+.menu-mobail__hidden {
     display: none;
 }
 .header__menu-mobail {
