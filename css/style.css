@@ -325,6 +325,9 @@ span {
     width: 61px;
     margin-bottom: 20px;
 }
+.language__item:hover {
+    cursor: pointer;
+}
 .language__item a {
     font-family: Merriweather;
     font-style: normal;
@@ -367,6 +370,10 @@ span {
     background-position: center center;
     background-size: cover;
 }
+.item__social-networks {
+    cursor: pointer;
+}
+
 .instagram {
     background-image: url("../img/header/social-networks/instagram.png");
 }
